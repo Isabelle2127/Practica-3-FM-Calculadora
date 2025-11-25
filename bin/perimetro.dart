@@ -12,23 +12,7 @@ void perimetro() {
 
   if (opt == '1') {
     // Distancia de un punto al origen
-    // Fórmula: d = sqrt(x^2 + y^2)
-    stdout.write('Ingresa x: ');
-    double x = double.parse(stdin.readLineSync()!.trim());
-    stdout.write('Ingresa y: ');
-    double y = double.parse(stdin.readLineSync()!.trim());
-
-    double x2 = x * x; // x^2
-    double y2 = y * y; // y^2
-    double suma = x2 + y2;
-    double d = sqrt(suma);
-
-    print('\nResultado:');
-    print('Punto: ($x, $y)');
-    print('x^2 = $x2, y^2 = $y2');
-    print('x^2 + y^2 = $suma');
-    print('Distancia al origen = sqrt($suma) = $d');
-  } else if (opt == '2') {
+   
 
     // Distancia entre dos puntos
     // Fórmula: d = sqrt((x2-x1)^2 + (y2-y1)^2)
