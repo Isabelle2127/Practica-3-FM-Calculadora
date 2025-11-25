@@ -29,6 +29,7 @@ void perimetro() {
     print('x^2 + y^2 = $suma');
     print('Distancia al origen = sqrt($suma) = $d');
   } else if (opt == '2') {
+
     // Distancia entre dos puntos
     // Fórmula: d = sqrt((x2-x1)^2 + (y2-y1)^2)
     stdout.write('Ingresa x1: ');
@@ -55,6 +56,7 @@ void perimetro() {
     print('dx^2 + dy^2 = $suma');
     print('Distancia entre puntos = sqrt($suma) = $d');
   } else if (opt == '3') {
+    
     // Perímetro de un polígono con n vértices
     // Pedimos n puntos (x,y). Sumamos distancias entre vértice i y i+1, 
     // cerrando agregando el segmento del último al primero.
